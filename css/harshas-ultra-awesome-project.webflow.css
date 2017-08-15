@@ -831,17 +831,19 @@
 }
 
 .title-section {
+  margin-top: 20px;
   margin-bottom: 0px;
   padding-top: 90px;
   padding-bottom: 90px;
 }
 
 .title-section.baksa-title-section {
+  margin-top: 20px;
   padding-top: 90px;
 }
 
 .title-section.givehope-title-section {
-  margin-top: 0px;
+  margin-top: 20px;
 }
 
 .sub-title {
@@ -885,7 +887,7 @@
 
 .research-div {
   margin-top: 0px;
-  padding: 0px 50px 0px 80px;
+  padding: 0px 50px 0px 0px;
 }
 
 .research-div.baksa-research-div-challenge {
@@ -973,6 +975,7 @@
 }
 
 .column-14 {
+  display: block;
   padding-top: 15px;
   padding-right: 0px;
   padding-left: 0px;
@@ -1064,7 +1067,7 @@
 .ia-section.givehope-ia {
   padding-top: 90px;
   padding-bottom: 90px;
-  background-color: #efb4af;
+  background-color: #f5f5f5;
 }
 
 .ia-div {
@@ -1074,7 +1077,7 @@
 }
 
 .title-project-black-center {
-  margin-top: 0px;
+  margin-top: 30px;
   margin-bottom: 50px;
   font-family: Montserrat, sans-serif;
   color: #333;
@@ -1085,9 +1088,7 @@
 .desc-text-black-center {
   display: block;
   width: 500px;
-  margin-right: auto;
-  margin-bottom: 0px;
-  margin-left: auto;
+  margin: 30px auto 50px;
   font-family: Montserrat, sans-serif;
   color: #333;
   font-size: 12px;
@@ -1148,7 +1149,7 @@
   margin-bottom: 120px;
   padding-top: 90px;
   padding-bottom: 90px;
-  background-color: #eac9c7;
+  background-color: #f5f5f5;
 }
 
 .lessons-section.baksa-lessons {
@@ -1156,6 +1157,7 @@
 }
 
 .lessons-section.gh-lessons {
+  margin-bottom: 0px;
   background-color: #fff;
 }
 
@@ -1239,10 +1241,13 @@
 }
 
 .survey-img {
-  width: 100%;
-  height: 400px;
-  margin-top: 50px;
-  padding-right: 60px;
+  display: block;
+  width: 75%;
+  height: 300px;
+  margin-top: 100px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 0px;
   background-image: url('../images/nomnom-interview.png');
   background-position: 0px 0px;
   background-size: cover;
@@ -1250,7 +1255,7 @@
 }
 
 .persona-img {
-  width: 100%;
+  width: 75%;
   height: 300px;
   padding-left: 60px;
   background-image: url('../images/nomnom-persona.png');
@@ -1260,6 +1265,9 @@
 }
 
 .persona-img.persona-img-hihq {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
   background-position: 50% 0px;
 }
 
@@ -1325,7 +1333,7 @@
 .proto-section {
   padding-top: 90px;
   padding-bottom: 90px;
-  background-color: #eac9c7;
+  background-color: #f5f5f5;
 }
 
 .proto-section.baksa-proto {
@@ -1600,22 +1608,22 @@
   background-position: 50% 0px;
   background-size: 100%;
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-attachment: scroll;
 }
 
 .prj-title-image.givehope-title-image {
   display: block;
   width: 100%;
-  height: 760px;
-  margin-top: 60px;
+  height: 730px;
+  margin-top: 40px;
   margin-right: auto;
   margin-left: auto;
-  padding-top: 0px;
-  background-image: url('../images/lh2_1.png');
-  background-position: 50% -26%;
+  padding-top: 20px;
+  background-image: url('../images/lh43x.png');
+  background-position: 50% 0px;
   background-size: 100%;
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-attachment: scroll;
 }
 
 .swot-row {
@@ -1778,9 +1786,9 @@
 }
 
 .survey-givehope {
-  width: 100%;
-  height: 420px;
-  margin-top: 60px;
+  width: 75%;
+  height: 320px;
+  margin-top: 70px;
   background-image: url('../images/lh-research.png');
   background-position: 0px 0px;
   background-size: cover;
@@ -1939,7 +1947,7 @@
   width: 100%;
   height: 700px;
   background-image: url('../images/nom2_13x.png');
-  background-position: 50% 0px;
+  background-position: 50% 50%;
   background-size: 100%;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -2052,8 +2060,7 @@
 }
 
 .persona-hihq {
-  margin-top: 0px;
-  margin-bottom: 0px;
+  margin: 0px 100px;
   padding-top: 90px;
   padding-bottom: 90px;
 }
@@ -2230,7 +2237,7 @@
   width: auto;
   padding-top: 90px;
   padding-bottom: 90px;
-  background-color: #eac9c7;
+  background-color: #f5f5f5;
   text-align: center;
 }
 
@@ -2248,13 +2255,16 @@
 
 .identity-nom-section {
   padding: 90px 80px;
-  background-color: #eac9c7;
+  background-color: #f5f5f5;
 }
 
 .id-image-nom {
-  width: 100%;
+  display: block;
+  width: 75%;
   height: 400px;
   margin-top: 50px;
+  margin-right: auto;
+  margin-left: auto;
   background-image: url('../images/nomnom-identity.png');
   background-position: 50% 50%;
   background-size: contain;
@@ -2348,15 +2358,15 @@
 
 .title-image-gh {
   position: static;
-  height: 750px;
-  margin-top: 65px;
+  height: 700px;
+  margin-top: 60px;
   padding-top: 0px;
 }
 
 .research-section1-gh {
   padding-top: 90px;
   padding-bottom: 90px;
-  background-color: #efb4af;
+  background-color: #f5f5f5;
 }
 
 .persona-gh-1-section {
@@ -2369,7 +2379,7 @@
 }
 
 .persona-gh-1-section.persona-gh-2-section {
-  background-color: #efb4af;
+  background-color: #f5f5f5;
 }
 
 .gh-identity-section-1 {
@@ -2387,8 +2397,12 @@
 }
 
 .link-block-6 {
-  width: 100%;
+  display: block;
+  width: 75%;
   height: 380px;
+  margin-top: 30px;
+  margin-right: auto;
+  margin-left: auto;
   background-image: url('../images/givehope-id.png');
   background-position: 0px 0px;
   background-size: 100%;
@@ -2422,7 +2436,7 @@
 }
 
 .gh-proto-section1.gh-proto {
-  background-color: #efb4af;
+  background-color: #f5f5f5;
 }
 
 .gh-link-div {
@@ -2473,6 +2487,41 @@
   padding-right: 80px;
   padding-left: 80px;
   text-align: center;
+}
+
+.section-5 {
+  margin-top: 60px;
+}
+
+.aboutme-section {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+.div-block-5 {
+  font-family: Montserrat, sans-serif;
+}
+
+.div-block-6 {
+  display: block;
+  width: 100%;
+  height: 400px;
+  margin-right: auto;
+  margin-left: auto;
+  background-image: url('../images/hm-cover.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+.div-block-7 {
+  height: 400px;
+  background-image: url('../images/hm.jpg');
+  background-position: 50% 50%;
+  background-size: auto 500px;
+  background-repeat: no-repeat;
 }
 
 @media (max-width: 991px) {
