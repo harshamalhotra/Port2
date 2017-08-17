@@ -209,6 +209,7 @@
 
 .baksa-index3.baksa1-index:hover {
   background-image: url('../images/baksa-selected_1.png');
+  background-position: 50% 50%;
   background-size: cover;
 }
 
@@ -265,7 +266,7 @@
 
 .heading-11 {
   display: block;
-  width: 500px;
+  width: 580px;
   margin-right: auto;
   margin-bottom: 30px;
   margin-left: auto;
@@ -289,7 +290,7 @@
   bottom: 0%;
   display: block;
   width: 320px;
-  margin-top: 90px;
+  margin-top: 40px;
   margin-right: auto;
   margin-left: auto;
   padding-top: 0px;
@@ -306,6 +307,8 @@
 
 .row-5 {
   margin-top: 30px;
+  padding-right: 100px;
+  padding-left: 100px;
 }
 
 .container-5 {
@@ -754,6 +757,7 @@
 
 .additional-index3.baksa1-index:hover {
   background-image: url('../images/additional-selected.png');
+  background-position: 50% 50%;
   background-size: cover;
 }
 
@@ -911,6 +915,21 @@
   transform: translate(0px, -50%);
 }
 
+.research-div.baksa-persona-research-div {
+  padding-right: 0px;
+  padding-left: 70px;
+}
+
+.research-div.nom-persona-div {
+  padding-right: 0px;
+  padding-left: 50px;
+}
+
+.research-div.nom-survey-div {
+  padding-right: 30px;
+  padding-left: 80px;
+}
+
 .swot-heading-center {
   margin-top: 0px;
   margin-bottom: 0px;
@@ -973,7 +992,7 @@
   display: block;
   padding-top: 30px;
   padding-right: 0px;
-  padding-left: 80px;
+  padding-left: 0px;
 }
 
 .column-14 {
@@ -1259,7 +1278,7 @@
 .persona-img {
   width: 75%;
   height: 300px;
-  padding-left: 60px;
+  padding-left: 0px;
   background-image: url('../images/nomnom-persona.png');
   background-position: 0px 0px;
   background-size: contain;
@@ -1276,6 +1295,7 @@
 .persona-img.persona-img-baksa {
   display: block;
   width: 75%;
+  margin-top: 40px;
   margin-right: auto;
   margin-left: auto;
   padding-top: 0px;
@@ -1317,6 +1337,7 @@
 .low-fid-link.links-of-pdf {
   margin-top: 50px;
   margin-bottom: 30px;
+  font-size: 14px;
 }
 
 .high-fid-link {
@@ -1367,7 +1388,7 @@
 .link-block.center-image2.nn-proto {
   width: 75%;
   height: 400px;
-  background-position: 50% 0px;
+  background-position: 50% 50%;
 }
 
 .link-block.ut1-img {
@@ -1621,7 +1642,7 @@
   margin-right: auto;
   margin-left: auto;
   padding-top: 20px;
-  background-image: url('../images/lh43x.png');
+  background-image: url('../images/GIVEHOPE13x.png');
   background-position: 50% 0px;
   background-size: 100%;
   background-repeat: no-repeat;
@@ -2262,7 +2283,7 @@
 
 .id-image-nom {
   display: block;
-  width: 75%;
+  width: 85%;
   height: 400px;
   margin-top: 50px;
   margin-right: auto;
@@ -2549,6 +2570,8 @@
 }
 
 .image-17 {
+  width: 5px;
+  height: 80px;
   padding-top: 5px;
   float: left;
   clear: none;
