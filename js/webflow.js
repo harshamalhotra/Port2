@@ -32,5 +32,6 @@ t.exports=function(){var t={};t.VERSION="1.6.0-Webflow";var e={},n=Array.prototy
  */
 Webflow.require('ix').init([
   {"slug":"new-interaction","name":"New Interaction","value":{"style":{},"triggers":[]}},
-  {"slug":"scroll-up-in-view","name":"Scroll up in view","value":{"style":{},"triggers":[{"type":"scroll","stepsA":[{"transition":"transform 500ms ease 0","x":"0px","y":"-30px","z":"0px"}],"stepsB":[{"transition":"transform 200ms ease 0","x":"0px","y":"30px","z":"0px"}]}]}}
+  {"slug":"scroll-up-in-view","name":"Scroll up in view","value":{"style":{},"triggers":[{"type":"scroll","stepsA":[{"transition":"transform 500ms ease 0","x":"0px","y":"-30px","z":"0px"}],"stepsB":[{"transition":"transform 200ms ease 0","x":"0px","y":"30px","z":"0px"}]}]}},
+  {"slug":"blinking-cursor","name":"Blinking cursor","value":{"style":{"opacity":1,"x":"0px","y":"0px","z":"0px"},"triggers":[{"type":"load","loopA":true,"stepsA":[{"wait":"500ms","opacity":0,"transition":"opacity 200 ease 0, transform 200 ease 0"},{"wait":"500ms","opacity":1,"transition":"opacity 200 ease 0"}],"stepsB":[]}]}}
 ]);
