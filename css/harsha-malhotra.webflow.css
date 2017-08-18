@@ -290,7 +290,7 @@
   bottom: 0%;
   display: block;
   width: 320px;
-  margin-top: 40px;
+  margin-top: 50px;
   margin-right: auto;
   margin-left: auto;
   padding-top: 0px;
@@ -2654,6 +2654,9 @@ html.w-mod-js *[data-ix="blinking-cursor"] {
 }
 
 @media (max-width: 991px) {
+  .footer-heading {
+    margin-bottom: 0px;
+  }
   .container-3.hero {
     padding-left: 100px;
   }
@@ -2681,20 +2684,32 @@ html.w-mod-js *[data-ix="blinking-cursor"] {
     width: 350px;
     text-align: center;
   }
+  .text-block {
+    margin-top: 0px;
+    padding-left: 10px;
+    font-size: 11px;
+  }
   .container-5 {
     margin-top: 0px;
   }
+  .column-6 {
+    height: 200px;
+  }
   .touch-section {
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 70px;
+    margin-bottom: 70px;
   }
   .button {
-    width: 200px;
-    padding: 20px 50px;
+    width: 180px;
+    padding: 15px 30px;
     text-align: center;
+  }
+  .heading-16 {
+    margin-top: 0px;
   }
   .footer {
     margin-top: 50px;
+    padding-top: 0px;
   }
   .navbar-container.hero {
     padding-left: 100px;
@@ -2703,6 +2718,10 @@ html.w-mod-js *[data-ix="blinking-cursor"] {
     padding-top: 160px;
     padding-bottom: 160px;
     padding-left: 100px;
+  }
+  .projects-section {
+    padding-top: 30px;
+    padding-bottom: 30px;
   }
   .nom-index2.nom-index {
     height: 300px;
@@ -2715,15 +2734,142 @@ html.w-mod-js *[data-ix="blinking-cursor"] {
     margin-bottom: 50px;
   }
   .what-section.about-me-index {
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 60px;
+    padding-bottom: 20px;
   }
   .tools-section {
     margin-top: 50px;
     margin-bottom: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
   }
   .additional-index3.baksa1-index {
     height: 300px;
+  }
+  .summary-block {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .title-section {
+    margin-top: 0px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .task-div {
+    height: 400px;
+  }
+  .column-14 {
+    padding-top: 0px;
+  }
+  .swot-heading-black {
+    margin-bottom: 10px;
+  }
+  .title-project-black {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    font-size: 16px;
+  }
+  .desc-text-black1 {
+    padding-bottom: 0px;
+    font-size: 11px;
+    line-height: 20px;
+  }
+  .title-project-black-center {
+    margin-bottom: 0px;
+  }
+  .desc-text-black-center {
+    margin-bottom: 0px;
+  }
+  .lessons-section {
+    margin-bottom: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .ut-div {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .survey-img {
+    margin-top: 60px;
+  }
+  .persona-img {
+    width: 100%;
+    height: 230px;
+    margin-top: 30px;
+  }
+  .low-fid-link.links-of-pdf {
+    margin-top: 30px;
+  }
+  .high-fid-link.links-of-pdf {
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+  .proto-section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .link-block.center-image2.nn-proto {
+    height: 330px;
+    margin-top: 30px;
+  }
+  .lf-nn-wf {
+    height: 310px;
+  }
+  .hf-nn-wf {
+    height: 350px;
+  }
+  .comp-nom-section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .nom-swot-link {
+    margin-top: 20px;
+  }
+  .survey-nom-class {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .persona-section1-nom {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .nom-persona-link {
+    display: block;
+    margin-top: 5px;
+    font-size: 10px;
+  }
+  .identity-nom-section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .id-image-nom {
+    width: 100%;
+    margin-top: 0px;
+  }
+  .info-archi-nom {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .ia-nom-link {
+    margin-top: 30px;
+  }
+  .ia-nom-1 {
+    height: 120px;
+  }
+  .wireframe-section-nomnom {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .ut-nom-2-img {
+    height: 330px;
+  }
+  .image-18 {
+    margin-top: 10px;
+  }
+  .row-14 {
+    position: static;
+    display: block;
   }
 }
 
@@ -2738,35 +2884,51 @@ html.w-mod-js *[data-ix="blinking-cursor"] {
     padding-right: 5px;
   }
   .heading-11 {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     text-align: center;
   }
   .text-block {
+    margin-top: 20px;
     text-align: justify;
+  }
+  .row-5 {
+    height: 500px;
   }
   .container-5 {
     margin-top: 20px;
   }
   .touch-section {
-    margin-top: 30px;
+    margin-top: 70px;
     margin-bottom: 30px;
   }
   .row-6 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
     padding-top: 20px;
   }
   .button {
     margin-top: 20px;
-    padding: 20px 40px;
+    padding: 10px 30px;
+    font-size: 11px;
     text-align: center;
   }
   .footer {
     margin-top: 30px;
+    padding-top: 0px;
   }
   .navbar-container.hero {
     padding-top: 160px;
   }
   .hero-container.hero {
     padding-top: 160px;
+    font-size: 11px;
+  }
+  .projects-section {
+    margin-top: 0px;
+    padding-top: 60px;
+    padding-bottom: 20px;
   }
   .nom-group {
     padding-right: 5px;
@@ -2782,22 +2944,28 @@ html.w-mod-js *[data-ix="blinking-cursor"] {
     margin-bottom: 30px;
   }
   .what-section.about-me-index {
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 90px;
+    padding-bottom: 0px;
   }
   .tools-section {
     margin-top: 30px;
     margin-bottom: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
   }
   .image-5 {
     display: block;
     margin-right: auto;
     margin-left: auto;
+    float: none;
+    clear: left;
   }
   .image-6 {
     display: block;
     margin-right: auto;
     margin-left: auto;
+    float: none;
+    clear: none;
   }
   .image-7 {
     display: block;
@@ -2850,10 +3018,197 @@ html.w-mod-js *[data-ix="blinking-cursor"] {
     margin-right: auto;
     margin-left: auto;
   }
+  .desc-text {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .tiltle {
+    font-size: 24px;
+  }
+  .summary-block {
+    margin-bottom: 0px;
+    padding-top: 30px;
+  }
+  .summary-header {
+    font-size: 10px;
+  }
+  .summary-subtext {
+    font-size: 9px;
+  }
+  .task-div {
+    height: 300px;
+  }
+  .research-div {
+    padding-right: 0px;
+  }
+  .research-div.nom-persona-div {
+    width: 100%;
+    padding-left: 0px;
+  }
+  .research-div.nom-survey-div {
+    padding-left: 30px;
+  }
+  .title-project-white {
+    font-size: 16px;
+  }
+  .row-7 {
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+  .column-13 {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+  .column-14 {
+    margin-top: 30px;
+  }
+  .swot-heading-black {
+    display: block;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+    text-align: center;
+  }
+  .title-project-black {
+    margin-top: 0px;
+    text-align: center;
+  }
+  .desc-text-black1 {
+    text-align: center;
+  }
+  .title-project-black-center {
+    margin-top: 0px;
+    font-size: 16px;
+  }
+  .desc-text-black-center {
+    margin-top: 20px;
+  }
+  .challenge-div.nn-challenge-div {
+    height: 370px;
+    padding-top: 70px;
+    padding-bottom: 50px;
+  }
+  .survey-img {
+    height: 200px;
+    margin-top: 30px;
+  }
+  .persona-img {
+    display: block;
+    width: 50%;
+    height: 230px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 0px;
+    padding-left: 0px;
+    text-align: center;
+  }
+  .low-fid-link.links-of-pdf {
+    font-size: 12px;
+  }
+  .high-fid-link.links-of-pdf {
+    font-size: 12px;
+  }
+  .link-block.center-image2.nn-proto {
+    height: 240px;
+  }
+  .div-block-4 {
+    height: 330px;
+    background-position: 50% 0px;
+  }
+  .lf-nn-wf {
+    height: 230px;
+  }
+  .hf-nn-wf {
+    height: 300px;
+  }
+  .row-13 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 30px;
+  }
+  .nom-swot-link {
+    font-size: 12px;
+  }
+  .persona-section1-nom {
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+  .nom-persona-link {
+    text-align: center;
+  }
+  .identity-nom-section {
+    padding-bottom: 30px;
+    padding-left: 50px;
+  }
+  .id-image-nom {
+    height: 290px;
+  }
+  .ia-nom-link {
+    font-size: 12px;
+  }
+  .ia-nom-1 {
+    height: 80px;
+  }
+  .ia-nom-2-image {
+    height: 430px;
+  }
+  .ut-nom-2-img {
+    height: 245px;
+  }
+  .section-5 {
+    margin-top: 60px;
+  }
+  .main-hero-text {
+    padding-right: 10px;
+    font-size: 30px;
+  }
+  .hero-text-div {
+    width: 230px;
+    font-size: 11px;
+  }
+  .image-17 {
+    height: 40px;
+    margin-top: 20px;
+    padding-top: 0px;
+  }
+  .heri-sub-text {
+    width: 320px;
+    margin-top: 0px;
+  }
+  .harsha-sub-lighted {
+    width: 100px;
+    margin-top: 4px;
+    margin-right: 3px;
+    padding: 2px 1px;
+  }
+  .text-block-5 {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .hyphen {
+    margin-bottom: 0px;
+  }
+  .text-span-3 {
+    margin-left: 2px;
+  }
+  .row-14 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+  }
 }
 
 @media (max-width: 479px) {
   .footer-heading {
+    display: block;
     margin-bottom: 0px;
   }
   .container-3.hero {
@@ -2878,22 +3233,39 @@ html.w-mod-js *[data-ix="blinking-cursor"] {
     padding-right: 0px;
     padding-left: 0px;
   }
+  .heading-10 {
+    font-size: 16px;
+  }
   .heading-11 {
     width: 310px;
     margin-top: 5px;
     margin-bottom: 10px;
+    font-size: 10px;
   }
   .heading-11.sub-touch {
     width: 270px;
     text-align: center;
   }
+  .column-5 {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
   .text-block {
     width: 220px;
-    font-size: 12px;
+    padding-left: 0px;
+    font-size: 11px;
     text-align: justify;
+  }
+  .row-5 {
+    height: 500px;
+    padding-right: 0px;
+    padding-left: 0px;
   }
   .container-5 {
     margin-top: 20px;
+  }
+  .column-6 {
+    height: 300px;
   }
   .touch-section {
     margin-top: 30px;
@@ -2901,15 +3273,41 @@ html.w-mod-js *[data-ix="blinking-cursor"] {
   }
   .heading-12 {
     width: 260px;
+    font-size: 16px;
+  }
+  .column-7 {
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+  .column-8 {
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+  .column-9 {
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+  .column-10 {
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+  .column-11 {
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+  .column-12 {
+    padding-right: 5px;
+    padding-left: 5px;
   }
   .button {
-    width: 180px;
+    width: 130px;
     margin-top: 10px;
-    padding: 20px 40px;
+    padding: 10px 15px;
   }
   .heading-16 {
     width: 250px;
     margin-top: 5px;
+    font-size: 10px;
   }
   .footer {
     margin-top: 30px;
@@ -2921,8 +3319,7 @@ html.w-mod-js *[data-ix="blinking-cursor"] {
     padding-top: 70px;
   }
   .hero-container.hero {
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding: 60px 0px;
   }
   .nom-group {
     padding-right: 0px;
@@ -2931,6 +3328,7 @@ html.w-mod-js *[data-ix="blinking-cursor"] {
   .nom-index2.nom-index {
     display: block;
     height: 200px;
+    margin-bottom: 5px;
   }
   .project-row-2 {
     margin-top: 0px;
@@ -2947,49 +3345,51 @@ html.w-mod-js *[data-ix="blinking-cursor"] {
     margin-bottom: 30px;
   }
   .what-section.about-me-index {
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 70px;
+    padding-bottom: 0px;
   }
   .tools-section {
     margin-top: 30px;
     margin-bottom: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
   .image-5 {
-    height: 100px;
+    height: 50px;
   }
   .image-6 {
-    height: 100px;
+    height: 50px;
   }
   .image-7 {
-    height: 100px;
+    height: 50px;
   }
   .image-8 {
-    height: 100px;
+    height: 50px;
   }
   .image-9 {
-    height: 100px;
+    height: 50px;
   }
   .image-10 {
-    height: 100px;
+    height: 50px;
   }
   .image-11 {
     width: auto;
-    height: 100px;
+    height: 50px;
   }
   .image-12 {
-    height: 100px;
+    height: 50px;
   }
   .image-13 {
-    height: 100px;
+    height: 50px;
   }
   .image-14 {
-    height: 100px;
+    height: 50px;
   }
   .image-15 {
-    height: 100px;
+    height: 50px;
   }
   .image-16 {
-    height: 100px;
+    height: 50px;
   }
   .div-block-2 {
     height: 50px;
@@ -2997,9 +3397,155 @@ html.w-mod-js *[data-ix="blinking-cursor"] {
   .header-heading {
     margin-bottom: 0px;
   }
+  .header-text-span1 {
+    font-size: 13px;
+  }
+  .header-text-span2 {
+    font-size: 13px;
+  }
   .additional-index3.baksa1-index {
     width: 100%;
     height: 200px;
+  }
+  .desc-text {
+    width: 240px;
+    margin-top: 10px;
+  }
+  .tiltle {
+    font-size: 20px;
+  }
+  .task-div {
+    height: 200px;
+    background-position: 50% 50%;
+  }
+  .research-div.nom-survey-div {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .desc-text-white {
+    width: 240px;
+  }
+  .title-project-black {
+    font-size: 12px;
+  }
+  .desc-text-black1 {
+    width: 220px;
+  }
+  .title-project-black-center {
+    font-size: 12px;
+  }
+  .desc-text-black-center {
+    width: 220px;
+    font-size: 11px;
+    text-align: center;
+  }
+  .lessons-section {
+    margin-bottom: 100px;
+  }
+  .challenge-div.nn-challenge-div {
+    height: 480px;
+  }
+  .persona-img {
+    width: 80%;
+    height: 180px;
+  }
+  .link-block.center-image2.nn-proto {
+    height: 140px;
+  }
+  .div-block-4 {
+    height: 220px;
+    background-position: 50% 50%;
+    background-size: 100%;
+    background-attachment: scroll;
+  }
+  .lf-nn-wf {
+    height: 130px;
+  }
+  .hf-nn-wf {
+    height: 150px;
+    background-repeat: no-repeat;
+  }
+  .row-13 {
+    display: inline-block;
+  }
+  .identity-nom-section {
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+  .id-image-nom {
+    height: 160px;
+  }
+  .ia-nom-link {
+    margin-top: 20px;
+  }
+  .ia-nom-1 {
+    width: 80%;
+    height: 50px;
+    margin-top: 20px;
+  }
+  .ia-nom-2-image {
+    width: 80%;
+    height: 310px;
+    margin-top: 20px;
+  }
+  .ut-nom-2-img {
+    height: 135px;
+  }
+  .container-8 {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .section-5 {
+    margin-top: 50px;
+  }
+  .heri-sub-text {
+    width: 215px;
+  }
+  .harsha-sub-lighted {
+    display: none;
+    margin-right: auto;
+    margin-left: auto;
+    float: none;
+  }
+  .text-block-5 {
+    display: block;
+    width: 215px;
+    margin-top: 0px;
+    float: none;
+  }
+  .hyphen {
+    float: none;
+  }
+  .text-span-3 {
+    margin-left: 0px;
+    float: none;
+  }
+  .san-hero {
+    float: none;
+  }
+  .image-18 {
+    display: block;
+    width: 250px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .image-19 {
+    display: block;
+    height: 150px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .image-20 {
+    display: block;
+    height: 150px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .image-21 {
+    display: block;
+    height: 150px;
+    margin-right: auto;
+    margin-left: auto;
   }
 }
 
