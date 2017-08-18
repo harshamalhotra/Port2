@@ -2573,7 +2573,7 @@
   width: 5px;
   height: 80px;
   padding-top: 5px;
-  float: left;
+  float: none;
   clear: none;
 }
 
@@ -2635,6 +2635,15 @@
 .san-hero {
   color: #221c5b;
   font-weight: 600;
+}
+
+.div-block-9 {
+  float: left;
+}
+
+.typed {
+  display: inline-block;
+  color: #000;
 }
 
 html.w-mod-js *[data-ix="blinking-cursor"] {
@@ -2993,3 +3002,4 @@ html.w-mod-js *[data-ix="blinking-cursor"] {
     height: 200px;
   }
 }
+
