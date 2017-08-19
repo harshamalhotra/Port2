@@ -1102,7 +1102,8 @@
   margin-bottom: 50px;
   font-family: Montserrat, sans-serif;
   color: #333;
-  font-size: 24px;
+  font-size: 16px;
+  font-weight: 700;
   text-align: center;
 }
 
@@ -2746,18 +2747,48 @@ html.w-mod-js *[data-ix="blinking-cursor"] {
   .additional-index3.baksa1-index {
     height: 300px;
   }
+  .desc-text {
+    margin-top: 30px;
+  }
+  .tiltle {
+    margin-top: 0px;
+    font-size: 24px;
+  }
   .summary-block {
     display: block;
     margin-right: auto;
+    margin-bottom: 20px;
     margin-left: auto;
+    padding-top: 0px;
   }
   .title-section {
     margin-top: 0px;
     padding-top: 50px;
     padding-bottom: 50px;
   }
+  .title-section.baksa-title-section {
+    margin-top: 0px;
+    padding-top: 50px;
+    padding-bottom: 0px;
+  }
   .task-div {
     height: 400px;
+  }
+  .task-div.baksa-lf-wf-div {
+    height: 300px;
+  }
+  .research-div {
+    padding-right: 0px;
+  }
+  .swot-section.baksa-swot {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .row-7 {
+    margin-top: 50px;
+  }
+  .column-13 {
+    padding-top: 0px;
   }
   .column-14 {
     padding-top: 0px;
@@ -2773,16 +2804,46 @@ html.w-mod-js *[data-ix="blinking-cursor"] {
   .desc-text-black1 {
     padding-bottom: 0px;
     font-size: 11px;
-    line-height: 20px;
+    line-height: 25px;
+  }
+  .research-section1 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .persona-section1.persona-baksa {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .identity-section.baksa-identity {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .ia-section.baksa-ia {
+    padding-top: 50px;
+    padding-bottom: 50px;
   }
   .title-project-black-center {
+    margin-top: 15px;
     margin-bottom: 0px;
+    font-size: 16px;
   }
   .desc-text-black-center {
+    margin-top: 15px;
     margin-bottom: 0px;
+  }
+  .wireframe-section.baksa-wireframes {
+    padding-top: 50px;
+    padding-bottom: 50px;
   }
   .lessons-section {
     margin-bottom: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .lessons-section.baksa-lessons {
+    margin-bottom: 70px;
+  }
+  .usability-testing-section.baksa-usability {
     padding-top: 50px;
     padding-bottom: 50px;
   }
@@ -2797,6 +2858,12 @@ html.w-mod-js *[data-ix="blinking-cursor"] {
     width: 100%;
     height: 230px;
     margin-top: 30px;
+  }
+  .persona-img.persona-img-baksa {
+    width: 100%;
+  }
+  .links-of-pdf {
+    font-size: 12px;
   }
   .low-fid-link.links-of-pdf {
     margin-top: 30px;
@@ -2813,11 +2880,95 @@ html.w-mod-js *[data-ix="blinking-cursor"] {
     height: 330px;
     margin-top: 30px;
   }
+  .fun-eats-section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  ._wf-image {
+    width: 75%;
+  }
+  .bj-wf-1 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+  }
+  .bam-jam-section {
+    margin-top: 60px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .moola-bank-section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .peer-talk-section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .hihq-section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .hihq-lf2 {
+    height: 300px;
+  }
+  .hihq-lf1 {
+    height: 300px;
+  }
+  .hf-img {
+    height: 300px;
+  }
+  .high-fidelity-link-center.less-padding-link-center {
+    font-size: 12px;
+  }
+  .prj-title-image.baksa-title-image {
+    height: 500px;
+  }
+  .link-block-4.proto-link-div-baksa {
+    height: 330px;
+  }
+  .baksa-wf-lf-1 {
+    height: 145px;
+  }
+  .baksa-wf-hf-1 {
+    height: 180px;
+  }
+  .development-section.baksa-development {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .survey-link-baksa-img {
+    background-repeat: no-repeat;
+  }
+  .id-img-baksa {
+    width: 100%;
+    height: 230px;
+  }
+  .uf-baksa-img-col {
+    height: 250px;
+  }
+  .persona-hihq {
+    margin-right: 50px;
+    margin-left: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
   .lf-nn-wf {
     height: 310px;
   }
   .hf-nn-wf {
     height: 350px;
+  }
+  .baksamf.baksa-mf {
+    height: 180px;
+  }
+  .baksamf.baksamf-2 {
+    height: 180px;
   }
   .comp-nom-section {
     padding-top: 50px;
@@ -3023,7 +3174,7 @@ html.w-mod-js *[data-ix="blinking-cursor"] {
     margin-bottom: 30px;
   }
   .tiltle {
-    font-size: 24px;
+    font-size: 20px;
   }
   .summary-block {
     margin-bottom: 0px;
@@ -3041,6 +3192,9 @@ html.w-mod-js *[data-ix="blinking-cursor"] {
   .research-div {
     padding-right: 0px;
   }
+  .research-div.baksa-persona-research-div {
+    padding-left: 0px;
+  }
   .research-div.nom-persona-div {
     width: 100%;
     padding-left: 0px;
@@ -3056,15 +3210,17 @@ html.w-mod-js *[data-ix="blinking-cursor"] {
     margin-left: 0px;
   }
   .column-13 {
+    position: static;
     display: block;
     margin-right: auto;
     margin-left: auto;
     padding-top: 0px;
     padding-right: 0px;
     padding-left: 0px;
+    text-align: center;
   }
   .column-14 {
-    margin-top: 30px;
+    margin-top: 50px;
   }
   .swot-heading-black {
     display: block;
@@ -3078,6 +3234,7 @@ html.w-mod-js *[data-ix="blinking-cursor"] {
     text-align: center;
   }
   .desc-text-black1 {
+    width: 400px;
     text-align: center;
   }
   .title-project-black-center {
@@ -3085,7 +3242,15 @@ html.w-mod-js *[data-ix="blinking-cursor"] {
     font-size: 16px;
   }
   .desc-text-black-center {
+    width: 400px;
     margin-top: 20px;
+  }
+  .wireframe-div {
+    padding-top: 50px;
+    padding-bottom: 0px;
+  }
+  .challenge-div.baksa-challenge-div {
+    height: 350px;
   }
   .challenge-div.nn-challenge-div {
     height: 370px;
@@ -3106,6 +3271,24 @@ html.w-mod-js *[data-ix="blinking-cursor"] {
     padding-left: 0px;
     text-align: center;
   }
+  .persona-img.persona-img-hihq {
+    height: 210px;
+    margin-top: 0px;
+  }
+  .persona-img.persona-img-baksa {
+    width: 54%;
+    margin-top: 0px;
+  }
+  .links-of-pdf {
+    display: block;
+    margin-top: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+  }
+  .low-fid-link {
+    font-size: 12px;
+  }
   .low-fid-link.links-of-pdf {
     font-size: 12px;
   }
@@ -3115,15 +3298,81 @@ html.w-mod-js *[data-ix="blinking-cursor"] {
   .link-block.center-image2.nn-proto {
     height: 240px;
   }
+  .bj-wf-2 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .bam-jam-section {
+    margin-top: 40px;
+  }
+  .hihq-section {
+    padding-bottom: 0px;
+  }
+  .hihq-lf2 {
+    margin-top: 20px;
+  }
+  .high-fidelity-link-center {
+    margin-top: 50px;
+    font-size: 12px;
+  }
+  .high-fidelity-link-center.less-padding-link-center {
+    margin-top: 30px;
+  }
+  .prj-title-image.baksa-title-image {
+    height: 390px;
+  }
+  .link-block-4.proto-link-div-baksa {
+    height: 250px;
+  }
+  .baksa-wf-lf-1 {
+    height: 220px;
+  }
+  .baksa-wf-lf-1.baksa-wf-lf-2 {
+    margin-top: 20px;
+  }
+  .baksa-wf-hf-1 {
+    height: 270px;
+  }
+  .baksa-wf-hf-1.baksa-wf-hf-2 {
+    margin-top: 10px;
+  }
   .div-block-4 {
     height: 330px;
     background-position: 50% 0px;
+  }
+  .link-center {
+    margin-top: 15px;
+    font-size: 12px;
+  }
+  .comp-ana-baksa1 {
+    margin-bottom: 10px;
+  }
+  .col-for-survey-baksa-image {
+    padding-top: 30px;
+  }
+  .baksa-id-img-col {
+    padding-top: 30px;
+  }
+  .uf-baksa-img-col {
+    height: 180px;
+    margin-top: 20px;
+  }
+  .persona-hihq {
+    padding-bottom: 0px;
   }
   .lf-nn-wf {
     height: 230px;
   }
   .hf-nn-wf {
     height: 300px;
+  }
+  .baksamf.baksa-mf {
+    height: 270px;
+  }
+  .baksamf.baksamf-2 {
+    height: 270px;
   }
   .row-13 {
     display: -webkit-box;
@@ -3203,6 +3452,15 @@ html.w-mod-js *[data-ix="blinking-cursor"] {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
+  }
+  .row-15 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .image-22 {
+    margin-bottom: 0px;
   }
 }
 
@@ -3409,14 +3667,26 @@ html.w-mod-js *[data-ix="blinking-cursor"] {
   }
   .desc-text {
     width: 240px;
-    margin-top: 10px;
+    margin-top: 20px;
   }
   .tiltle {
+    margin-top: 0px;
     font-size: 20px;
+  }
+  .summary-block {
+    display: inline-block;
+  }
+  .title-section.givehope-title-section {
+    margin-top: 0px;
   }
   .task-div {
     height: 200px;
     background-position: 50% 50%;
+  }
+  .task-div.baksa-lf-wf-div {
+    height: 200px;
+    background-position: 50% 50%;
+    background-attachment: fixed;
   }
   .research-div.nom-survey-div {
     padding-right: 10px;
@@ -3425,22 +3695,52 @@ html.w-mod-js *[data-ix="blinking-cursor"] {
   .desc-text-white {
     width: 240px;
   }
+  .swot-section.givehope-swot {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .row-7 {
+    margin-top: 0px;
+  }
+  .column-14 {
+    margin-top: 0px;
+  }
+  .column-14.gh-persona {
+    margin-top: 20px;
+  }
   .title-project-black {
+    margin-bottom: 0px;
     font-size: 12px;
   }
   .desc-text-black1 {
-    width: 220px;
+    width: 240px;
+  }
+  .ia-section.givehope-ia {
+    padding-top: 50px;
+    padding-bottom: 50px;
   }
   .title-project-black-center {
     font-size: 12px;
   }
   .desc-text-black-center {
-    width: 220px;
+    width: 240px;
+    margin-top: 0px;
     font-size: 11px;
     text-align: center;
   }
   .lessons-section {
     margin-bottom: 100px;
+  }
+  .challenge-div.give-hope-challenge {
+    height: 500px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .challenge-div.baksa-challenge-div {
+    height: 490px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-position: 50% 50%;
   }
   .challenge-div.nn-challenge-div {
     height: 480px;
@@ -3449,8 +3749,103 @@ html.w-mod-js *[data-ix="blinking-cursor"] {
     width: 80%;
     height: 180px;
   }
+  .persona-img.persona-img-hihq {
+    width: 100%;
+    height: 190px;
+  }
+  .persona-img.persona-img-baksa {
+    width: 75%;
+  }
+  .persona-img.persona-img-givehope {
+    height: 280px;
+    background-position: 50% 50%;
+    background-size: 100%;
+  }
   .link-block.center-image2.nn-proto {
     height: 140px;
+  }
+  ._wf-image {
+    display: inline-block;
+    width: 50%;
+    margin-bottom: 15px;
+  }
+  ._3-bamjam-wf-col {
+    overflow: visible;
+  }
+  .bj-wf-1 {
+    display: block;
+  }
+  .bj-wf-2 {
+    display: block;
+    margin-top: 0px;
+  }
+  .hihq-lf2 {
+    height: 200px;
+  }
+  .hihq-lf1 {
+    height: 200px;
+  }
+  .hf-img {
+    height: 200px;
+  }
+  .high-fidelity-link-center {
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+  .prj-title-image.baksa-title-image {
+    height: 220px;
+    margin-top: 50px;
+  }
+  .prj-title-image.givehope-title-image {
+    height: 220px;
+  }
+  .link-block-4.proto-link-div-baksa {
+    height: 140px;
+  }
+  .gh-mf-1 {
+    height: 145px;
+  }
+  .gh-mf-1.gh-mf-2 {
+    height: 145px;
+    margin-top: 20px;
+  }
+  .baksa-wf-lf-1 {
+    height: 115px;
+  }
+  .baksa-wf-hf-1 {
+    height: 145px;
+  }
+  .survey-givehope {
+    display: block;
+    height: 250px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .interview-div {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .givehop-userstories {
+    height: 100px;
+    background-position: 50% 50%;
+    background-size: 100%;
+  }
+  .givehop-uf {
+    height: 72px;
+  }
+  .gh-lf-1 {
+    height: 210px;
+  }
+  .gh-lf-1.gh-lf-2 {
+    height: 210px;
+    margin-top: 10px;
+  }
+  .gh-hf-1 {
+    height: 150px;
+  }
+  .gh-hf-1.gh-hf-2 {
+    height: 150px;
+    margin-top: 20px;
   }
   .div-block-4 {
     height: 220px;
@@ -3458,12 +3853,51 @@ html.w-mod-js *[data-ix="blinking-cursor"] {
     background-size: 100%;
     background-attachment: scroll;
   }
+  .survey-link-baksa-img {
+    height: 200px;
+    background-repeat: no-repeat;
+  }
+  .baksa-id-img-col {
+    padding-top: 20px;
+  }
+  .id-img-baksa {
+    width: 80%;
+  }
+  .uf-baksa-img-col {
+    display: block;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    background-size: 100%;
+  }
+  .persona-hihq {
+    margin-right: 30px;
+    margin-left: 30px;
+    padding-top: 30px;
+  }
+  .hi-hq-persona-text {
+    margin-top: 30px;
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+  .swot-givehope-research-div {
+    margin-bottom: 30px;
+  }
+  .givehope-swot-col-1 {
+    margin-bottom: 10px;
+  }
   .lf-nn-wf {
     height: 130px;
   }
   .hf-nn-wf {
     height: 150px;
     background-repeat: no-repeat;
+  }
+  .baksamf.baksa-mf {
+    height: 145px;
+  }
+  .baksamf.baksamf-2 {
+    height: 145px;
   }
   .row-13 {
     display: inline-block;
@@ -3490,6 +3924,43 @@ html.w-mod-js *[data-ix="blinking-cursor"] {
   }
   .ut-nom-2-img {
     height: 135px;
+  }
+  .title-image-gh {
+    height: 220px;
+  }
+  .research-section1-gh {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .persona-gh-1-section.persona-gh-2-section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .gh-identity-section-1.gh-identity-2 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .link-block-6 {
+    height: 180px;
+  }
+  .wireframe-section-gh2.givehope-wireframes {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .gh-proto-section1.gh-proto {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .gh-link-div.proto-link-div-gh {
+    height: 140px;
+  }
+  .gh-link-persona {
+    display: block;
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 12px;
+    text-align: center;
   }
   .container-8 {
     padding-right: 10px;
@@ -3529,6 +4000,9 @@ html.w-mod-js *[data-ix="blinking-cursor"] {
     margin-right: auto;
     margin-left: auto;
   }
+  .row-14 {
+    display: inline-block;
+  }
   .image-19 {
     display: block;
     height: 150px;
@@ -3546,6 +4020,27 @@ html.w-mod-js *[data-ix="blinking-cursor"] {
     height: 150px;
     margin-right: auto;
     margin-left: auto;
+  }
+  .row-15 {
+    display: inline-block;
+  }
+  .image-22 {
+    height: 150px;
+  }
+  .image-23 {
+    height: 150px;
+  }
+  .image-24 {
+    height: 150px;
+  }
+  .image-25 {
+    height: 150px;
+  }
+  .image-26 {
+    height: 150px;
+  }
+  .image-27 {
+    height: 150px;
   }
 }
 
