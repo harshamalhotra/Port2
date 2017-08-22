@@ -1110,7 +1110,7 @@
 .desc-text-black-center {
   display: block;
   width: 500px;
-  margin: 30px auto 50px;
+  margin: 50px auto;
   font-family: Montserrat, sans-serif;
   color: #333;
   font-size: 12px;
@@ -2647,6 +2647,24 @@
   color: #000;
 }
 
+.link-block-7 {
+  width: 100%;
+  height: 2200px;
+  background-image: url('../images/Porttimeline-Version2.png');
+  background-position: 0px 0px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.timeline {
+  width: 100%;
+  height: 2200px;
+  background-image: url('../images/Porttimeline-Version2.png');
+  background-position: 0px 0px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
 html.w-mod-js *[data-ix="blinking-cursor"] {
   opacity: 1;
   -webkit-transform: translate(0px, 0px);
@@ -3022,6 +3040,9 @@ html.w-mod-js *[data-ix="blinking-cursor"] {
     position: static;
     display: block;
   }
+  .timeline {
+    height: 1750px;
+  }
 }
 
 @media (max-width: 767px) {
@@ -3060,7 +3081,7 @@ html.w-mod-js *[data-ix="blinking-cursor"] {
     padding-top: 20px;
   }
   .button {
-    margin-top: 20px;
+    margin-top: 40px;
     padding: 10px 30px;
     font-size: 11px;
     text-align: center;
@@ -3462,11 +3483,15 @@ html.w-mod-js *[data-ix="blinking-cursor"] {
   .image-22 {
     margin-bottom: 0px;
   }
+  .timeline {
+    height: 1350px;
+  }
 }
 
 @media (max-width: 479px) {
   .footer-heading {
     display: block;
+    margin-top: 30px;
     margin-bottom: 0px;
   }
   .container-3.hero {
@@ -3490,6 +3515,9 @@ html.w-mod-js *[data-ix="blinking-cursor"] {
   .column-4 {
     padding-right: 0px;
     padding-left: 0px;
+  }
+  .container-4 {
+    margin-top: 20px;
   }
   .heading-10 {
     font-size: 16px;
@@ -4041,6 +4069,9 @@ html.w-mod-js *[data-ix="blinking-cursor"] {
   }
   .image-27 {
     height: 150px;
+  }
+  .timeline {
+    height: 770px;
   }
 }
 
