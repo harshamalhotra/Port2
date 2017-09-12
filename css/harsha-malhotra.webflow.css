@@ -426,7 +426,9 @@
   margin-left: auto;
   padding: 10px 30px;
   background-color: #bc4123;
-  box-shadow: 0 1px 14px 0 #b0b4c0;
+  background-image: -webkit-linear-gradient(270deg, #fff -6%, #e7522e 0%, #bc4123 99%);
+  background-image: linear-gradient(180deg, #fff -6%, #e7522e 0%, #bc4123 99%);
+  box-shadow: 1px 1px 1px 0 #792713;
   font-family: Montserrat, sans-serif;
   font-size: 13px;
   text-align: center;
@@ -443,10 +445,15 @@
   display: block;
   width: 290px;
   margin-right: auto;
+  margin-bottom: 10px;
   margin-left: auto;
   font-family: Montserrat, sans-serif;
   color: #221c5b;
   font-weight: 100;
+}
+
+.heading-16.footer-text {
+  margin-bottom: 0px;
 }
 
 .footer {
@@ -721,6 +728,12 @@
 .con.contact-button {
   background-color: #bc4123;
   color: #e8f2f3;
+}
+
+.con.contact-button.primary-con {
+  background-image: -webkit-linear-gradient(270deg, #fff -1%, #ff5c34 0%, #bc4123);
+  background-image: linear-gradient(180deg, #fff -1%, #ff5c34 0%, #bc4123);
+  box-shadow: 1px 1px 1px 0 #bc4123;
 }
 
 .additional-index3 {
@@ -2659,10 +2672,47 @@
 .timeline {
   width: 100%;
   height: 2200px;
-  background-image: url('../images/Porttimeline-Version2_1.png');
+  background-image: url('../images/Porttimeline-Version2.png');
+  background-position: 50% 0px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.link-block-8 {
+  width: 30px;
+  height: 30px;
+  background-image: url('../images/linkedin.png');
   background-position: 50% 50%;
   background-size: 100%;
   background-repeat: no-repeat;
+}
+
+.link-block-8.social-logo {
+  background-image: url('../images/dribbble-icon-1.png');
+  background-size: 100%;
+}
+
+.link-block-8.social-logo.dribbble-logo {
+  margin-right: 20px;
+  padding-right: 0px;
+  padding-left: 20px;
+}
+
+.link-block-8.social-logo.linkedin-logo {
+  margin-right: 20px;
+  margin-left: 20px;
+  padding-left: 0px;
+  background-image: url('../images/linkedin.png');
+  background-size: 100%;
+}
+
+.link-block-8.social-logo.quora-logo {
+  width: 27px;
+  height: 30px;
+  margin-right: 20px;
+  margin-left: 20px;
+  background-image: url('../images/quora-logo.png');
+  background-size: 100%;
 }
 
 html.w-mod-js *[data-ix="blinking-cursor"] {
@@ -3589,6 +3639,9 @@ html.w-mod-js *[data-ix="blinking-cursor"] {
     width: 130px;
     margin-top: 10px;
     padding: 10px 15px;
+    background-image: -webkit-linear-gradient(270deg, #fff -2%, #fff -1%, #ff5b33 0%, #bc4123);
+    background-image: linear-gradient(180deg, #fff -2%, #fff -1%, #ff5b33 0%, #bc4123);
+    box-shadow: 1px 1px 1px 0 #902e16;
   }
   .heading-16 {
     width: 250px;
@@ -3997,6 +4050,9 @@ html.w-mod-js *[data-ix="blinking-cursor"] {
   .section-5 {
     margin-top: 50px;
   }
+  .aboutme-section {
+    margin-bottom: 50px;
+  }
   .heri-sub-text {
     width: 215px;
   }
@@ -4072,6 +4128,28 @@ html.w-mod-js *[data-ix="blinking-cursor"] {
   }
   .timeline {
     height: 770px;
+  }
+  .link-block-8.social-logo.dribbble-logo {
+    width: 25px;
+    height: 25px;
+    margin-top: -5px;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding-left: 0px;
+  }
+  .link-block-8.social-logo.linkedin-logo {
+    width: 25px;
+    height: 25px;
+    margin-top: -5px;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  .link-block-8.social-logo.quora-logo {
+    width: 23px;
+    height: 25px;
+    margin-top: -5px;
+    margin-right: 10px;
+    margin-left: 10px;
   }
 }
 
