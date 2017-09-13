@@ -2593,7 +2593,7 @@
 
 .heri-sub-text {
   display: block;
-  width: 425px;
+  width: 520px;
   margin-top: 15px;
   margin-right: auto;
   margin-left: auto;
@@ -2620,7 +2620,8 @@
   width: 127px;
   margin-right: 10px;
   padding: 5px;
-  float: left;
+  float: none;
+  clear: none;
   background-color: #221c5b;
   font-weight: 500;
   text-align: center;
@@ -2628,10 +2629,13 @@
 
 .text-block-5 {
   margin-top: 7px;
-  float: left;
+  float: right;
+  clear: none;
 }
 
 .hyphen {
+  float: left;
+  clear: none;
   color: #221c5b;
 }
 
@@ -2672,7 +2676,7 @@
 .timeline {
   width: 100%;
   height: 2200px;
-  background-image: url('../images/Porttimeline-Version2.png');
+  background-image: url('../images/Porttimeline-Version2_1.png');
   background-position: 50% 0px;
   background-size: 100%;
   background-repeat: no-repeat;
@@ -3502,6 +3506,8 @@ html.w-mod-js *[data-ix="blinking-cursor"] {
     margin-top: 0px;
   }
   .harsha-sub-lighted {
+    display: none;
+    overflow: hidden;
     width: 100px;
     margin-top: 4px;
     margin-right: 3px;
@@ -3511,6 +3517,7 @@ html.w-mod-js *[data-ix="blinking-cursor"] {
     display: block;
     margin-right: auto;
     margin-left: auto;
+    float: left;
   }
   .hyphen {
     margin-bottom: 0px;
