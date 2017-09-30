@@ -2383,7 +2383,7 @@
   margin-top: 50px;
   margin-right: auto;
   margin-left: auto;
-  background-image: url('../images/nomnom-identity.png');
+  background-image: url('../images/nom-style.png');
   background-position: 50% 50%;
   background-size: contain;
   background-repeat: no-repeat;
@@ -2915,6 +2915,13 @@
 .harmony-index.harmony-index-pg:hover {
   background-image: url('../images/harmony-index.png');
   background-size: cover;
+}
+
+.link-block-9 {
+  width: 100%;
+  background-image: url('../images/example-bg.png');
+  background-position: 0px 0px;
+  background-size: 125px;
 }
 
 html.w-mod-js *[data-ix="blinking-cursor"] {
